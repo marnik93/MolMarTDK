@@ -1,0 +1,25 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tdk.panobot_3.Cam_control_frag"
+    android:id="@+id/camcont_frag">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <FrameLayout
+        android:layout_width="320dp"
+        android:layout_height="420dp"
+        android:layout_gravity="center"
+        android:id="@+id/stream_cam_fragment_container">
+        <include layout="@layout/fragment_view_stream"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="27dp"
+            android:text="Camera Control fragment" />
+    </FrameLayout>
+
+
+
+</FrameLayout>

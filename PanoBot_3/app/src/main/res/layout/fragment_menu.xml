@@ -1,0 +1,59 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Menu_frag"
+    android:id="@+id/frag_menu">
+
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:textSize="65dp"
+        android:text="PanoBot" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="60dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:weightSum="1">
+
+        <android.support.v7.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Control car"
+            android:id="@+id/butt_control_car"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.33"
+            android:textSize="25dp" />
+
+
+        <android.support.v7.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Control camera"
+            android:id="@+id/butt_control_cam"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.33"
+            android:textSize="25dp" />
+
+
+        <android.support.v7.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Make panorama"
+            android:id="@+id/butt_make_pano"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.33"
+            android:textSize="25dp" />
+    </LinearLayout>
+
+</FrameLayout>
