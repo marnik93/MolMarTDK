@@ -8,7 +8,8 @@
 
     <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:padding="0dp">
         <!--android:layout_marginBottom="40dp"-->
         <!--android:layout_marginTop="40dp"-->
         <!--android:layout_marginLeft="40dp"-->
@@ -17,10 +18,9 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/webpage"
-        android:layout_gravity="center"/>
-        <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="View stream" />
+        android:layout_gravity="center"
+            android:padding="0dp">
+
+    </WebView>
     </FrameLayout>
 </RelativeLayout>
